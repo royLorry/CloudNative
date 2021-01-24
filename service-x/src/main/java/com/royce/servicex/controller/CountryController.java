@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Country 控制层
- *
- * 
  */
 
 @RestController
@@ -21,8 +19,8 @@ public class CountryController {
         this.countryService = countryService;
     }
 
-    @PostMapping(value="/api/country/{countryName}")
-    public Country getMethodName(@PathVariable(value = "countryName", required = true) String countryName) {
+    @PostMapping(value = "/api/country/{countryName}")
+    public Country getCountry(@PathVariable(value = "countryName", required = true) String countryName) {
         return countryService.findCountryByName(countryName);
     }
 

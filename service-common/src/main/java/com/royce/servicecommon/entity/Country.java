@@ -2,6 +2,9 @@ package com.royce.servicecommon.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 
 /**
  * Country实体类
@@ -10,7 +13,8 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class Country {
+@NoArgsConstructor
+public class Country implements Serializable {
 
     private Long id;
 
