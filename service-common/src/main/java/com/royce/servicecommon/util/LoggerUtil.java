@@ -5,9 +5,13 @@ import org.slf4j.LoggerFactory;
 
 public class LoggerUtil {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    private static final Logger logger = LoggerFactory.getLogger(LoggerUtil.class);
 
-    public void info(String msg) {
+    public static void info(String msg) {
         logger.info(msg);
+    }
+
+    public static void info(String msg, Object... obj) {
+        logger.info(msg, obj);
     }
 }

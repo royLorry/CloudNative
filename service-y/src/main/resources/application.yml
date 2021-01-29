@@ -5,3 +5,6 @@ eureka:
 spring:
   application:
     name: service-y
+feign:
+  hystrix:
+    enabled: true
