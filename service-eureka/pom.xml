@@ -12,9 +12,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>service-eureka</name>
     <description>注册中心</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

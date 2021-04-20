@@ -12,9 +12,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>service-y</name>
     <description>Service Y for API Caller</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

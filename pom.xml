@@ -17,6 +17,7 @@
         <module>service-x</module>
         <module>service-y</module>
         <module>service-common</module>
+        <module>service-config-server</module>
     </modules>
 
     <groupId>com.royce</groupId>

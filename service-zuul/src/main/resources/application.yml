@@ -5,7 +5,7 @@ eureka:
 spring:
   application:
     name: service-zuul
-# 路由规则配置
+# 璺敱瑙勫垯閰嶇疆
 zuul:
   routes:
     api-service-x:
